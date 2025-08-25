@@ -1,0 +1,21 @@
+.heading{
+    width:80%;
+    font-size:25px;
+    font-weight:bold;
+}
+body{
+    background:radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);;
+    color:springgreen;
+}
+.name_of_objects, #result_object_name, #result_object_accuracy{
+    color:whitesmoke;
+    font-size:25px;
+}
+hr{
+    border:solid 2px forestgreen;
+}
+#camera{
+    width:350px;
+    height:350px;
+    border: 2px dashed darkslategray;
+}

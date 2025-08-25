@@ -1,0 +1,12 @@
+body{
+    text-align:center;
+    background-color:linear-gradient(blue 0%, green 100%);
+}
+img{
+    width:500px;
+    height:500px;
+    border-color:crimson;
+    border-width:5px;
+    border-style: ridge;
+    padding:5px;
+}

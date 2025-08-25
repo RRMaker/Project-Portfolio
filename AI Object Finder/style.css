@@ -1,0 +1,38 @@
+body{
+    background-size:cover;
+}
+.heading{
+    width:100%;
+    font-size:25px;
+    margin:0px;
+}
+h3{
+    font-size: 12px;
+}
+span{
+    font-size: 12px;
+}
+#start{
+    margin-top:5px;
+}
+#status, #found{
+    margin-bottom:40px;
+}
+#start, #status, #found{
+    font-size:15px;
+}
+.copyright_footer{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    background-color:azure;
+    text-align:center;
+    line-height:3;
+    color:blue;
+}
+canvas{
+    border:3px solid blueviolet;
+    margin-top:75px;
+    border-radius:20px;
+    box-shadow:5px 5px 5px violet;
+}

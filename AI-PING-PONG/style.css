@@ -1,0 +1,25 @@
+.heading{
+    width:100%;
+    text-align:left;
+}
+.heading button{
+    float:right;
+    border:1px solid white;
+}
+.heading h3{
+    display:inline;
+}
+#start, #status{
+    font-size:25px;
+}
+h4{
+    background-color:coral;
+    line-height:2;
+    margin:0px;
+}
+#restart{
+    font-size:24px;
+}
+#game_console{
+    position:bottom;
+}

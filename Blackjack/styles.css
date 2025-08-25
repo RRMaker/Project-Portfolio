@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    justify-content: flex-start;
+    display: flex;
+    margin-bottom: 0;
+    padding: 0;
+    background: black;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+h1 {
+font-size: 4rem;
+  background: linear-gradient(
+    to right,
+    rgb(255, 0, 0),
+    rgb(245, 140, 3),
+    rgb(255, 255, 0),
+    rgb(255, 0, 0)
+  );
+  background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  animation: gradientAnimation 3s linear infinite;
+}
+@keyframes gradientAnimation{
+  0%{
+    background-position: 200% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+#deck {
+  display: block;
+  align-items: center;
+  width: 100px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#demo{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.back {
+  width: 100px;
+  height: 140px;
+  border: 2px solid #333;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #666, #444);
+  color: #fff;
+  line-height: 1.2;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#count {
+  font-size: 1.5em;
+  margin-top: 8px;
+}
+
+#card-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  width: 100px;
+  height: 140px;
+  border: 2px solid #333;
+  border-radius: 6px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  user-select: none;
+}
+
+.card .top, .card .bottom {
+  font-weight: bold;
+}
+
+.card.red { color: #c00; }
+.card.black { color: #000; }
+
+.bust {
+  font-size: 7em;
+  color: rgb(223, 15, 15);
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center;
+}
