@@ -1,0 +1,21 @@
+.heading{
+    width:80%;
+    font-size:25px;
+    font-weight:bold;
+}
+body{
+    background-color:aquamarine;
+    color:darkblue;
+}
+.name_of_objects, #result_object_name, #result_object_accuracy{
+    color:firebrick;
+    font-size:20px;
+}
+hr{
+    border:solid 2px forestgreen;
+}
+#camera{
+    width:350px;
+    height:350px;
+    border: 2px dashed darkslategray;
+}

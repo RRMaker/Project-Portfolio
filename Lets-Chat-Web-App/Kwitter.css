@@ -1,0 +1,18 @@
+img{
+    width:350px;
+    height:200px;
+    border-radius: 20px;
+}
+button{
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border-style: none;
+    margin-top: 20px;
+}
+body
+{
+background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+}
