@@ -1,0 +1,46 @@
+body{
+    text-align:center;
+}
+h1{
+    font-size:40px;
+    background-color: burlywood;
+    color:antiquewhite;
+    font-weight:bold;
+}
+ol h5{
+    background-color:white;
+    padding:15px;
+    border-radius:20px;
+}
+.test_image_and_result{
+    background-color:grey;
+    border-radius:20px;
+    margin-top:50px;
+    padding:30px;
+    box-shadow: 5px 5px 10px salmon;
+}
+span{
+    font-size:16px;
+    color:red;
+}
+li img{
+    border-radius:20px;
+}
+b{
+    color:blueviolet;
+    font-size:16px;
+}
+.footer{
+    font-size: 15px;
+    background-color:lightgreen;
+    color:brown;
+    line-height:3;
+    bottom:0;
+    position:fixed;
+    width:100%;
+    margin-top:75px;
+}
+#gl{
+    width:150px;
+    height:150px;
+}

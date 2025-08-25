@@ -1,0 +1,24 @@
+#back3{
+    margin-top:5px;
+}
+#status3, #start_model, #number_of_objects3
+{
+font-size: 18px;
+}
+
+body{
+    background-size:cover;
+    background-position:center;
+}
+canvas{
+    border-radius:20px;
+    box-shadow:10px 10px 10px aqua;
+    margin-top:75px;
+}
+#status3{
+    margin-bottom:400px;
+    margin-left:0px;
+}
+#number_of_objects3{
+    margin-bottom:400px;
+}

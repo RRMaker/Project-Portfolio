@@ -1,0 +1,24 @@
+#back5{
+    margin-top:5px;
+}
+#status5, #start_model, #number_of_objects5
+{
+font-size: 18px;
+}
+
+body{
+    background-size:cover;
+    background-position:center;
+}
+canvas{
+    border-radius:20px;
+    box-shadow:10px 10px 10px aqua;
+    margin-top:75px;
+}
+#status{
+    margin-bottom:400px;
+    margin-left:0px;
+}
+#number_of_objects5{
+    margin-bottom:400px;
+}
