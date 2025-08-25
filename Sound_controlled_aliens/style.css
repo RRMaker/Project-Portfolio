@@ -1,0 +1,31 @@
+body{
+   background-color:dimgrey;
+   color:whitesmoke;
+}
+#SCA{
+    font-size:40px !important;
+    font-weight:bold !important;
+    color:yellowgreen;
+    text-decoration:underline;
+}
+.header_div p{
+    color:yellowgreen;
+    font-size:16px;
+}
+.main_div button{
+    width:130px;
+    font-weight:bold;
+    font-size:30px;
+    margin-top:30px;
+}
+.copy_right_footer{
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    bottom:0;
+    background-color:palegoldenrod;
+    color:royalblue;
+    width:100%;
+    font-weight:bold;
+    text-shadow:5px 5px 5px yellow;
+}
